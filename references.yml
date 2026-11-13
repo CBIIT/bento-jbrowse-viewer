@@ -1,0 +1,48 @@
+catalog_version: 1
+default_reference: CanFam3.1
+
+references:
+  - id: CanFam3.1
+    aliases:
+      - CanFam3.1
+      - CanFam3_1
+      - canFam3
+      - CanFam 3.1
+      - Cfam3.1
+      - camFam3.1
+      - Cfam3
+      - camFam3
+    assets:
+      fasta_file: CanFam3.1.fa
+      fai_file: CanFam3.1.fa.fai
+      gzi_file: null
+    jbrowse_assembly_name: CanFam3.1
+
+  - id: UU_Cfam_GSD_1.0
+    aliases:
+      - UU_Cfam_GSD_1.0
+      - GCF_011100685.1
+    assets:
+      fasta_file: GCF_011100685.1_UU_Cfam_GSD_1.0_genomic.fna
+      fai_file: GCF_011100685.1_UU_Cfam_GSD_1.0_genomic.fna.fai
+      gzi_file: null
+    jbrowse_assembly_name: UU_Cfam_GSD_1.0
+
+  - id: ROS_Cfam_1.0
+    aliases:
+      - ROS_Cfam_1.0
+    assets:
+      fasta_file: Canis_lupus_familiaris.ROS_Cfam_1.0.dna_sm.toplevel.fa
+      fai_file: Canis_lupus_familiaris.ROS_Cfam_1.0.dna_sm.toplevel.fa.fai
+      gzi_file: null
+    jbrowse_assembly_name: ROS_Cfam_1.0
+
+  - id: CanFam3.1_plus_lambda
+    base_reference: CanFam3.1
+    aliases:
+      - CanFam3.1_plus_lambda
+    assets:
+      fasta_file: CanFam3.1_plus_lambda.fa
+      fai_file: CanFam3.1_plus_lambda.fa.fai
+      gzi_file: null
+    jbrowse_assembly_name: CanFam3.1_plus_lambda
