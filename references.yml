@@ -23,8 +23,8 @@ references:
       - UU_Cfam_GSD_1.0
       - GCF_011100685.1
     assets:
-      fasta_file: GCF_011100685.1_UU_Cfam_GSD_1.0_genomic.fna
-      fai_file: GCF_011100685.1_UU_Cfam_GSD_1.0_genomic.fna.fai
+      fasta_file: UU_Cfam_GSD_1.0.fna
+      fai_file: UU_Cfam_GSD_1.0.fna.fai
       gzi_file: null
     jbrowse_assembly_name: UU_Cfam_GSD_1.0
 
@@ -32,8 +32,8 @@ references:
     aliases:
       - ROS_Cfam_1.0
     assets:
-      fasta_file: Canis_lupus_familiaris.ROS_Cfam_1.0.dna_sm.toplevel.fa
-      fai_file: Canis_lupus_familiaris.ROS_Cfam_1.0.dna_sm.toplevel.fa.fai
+      fasta_file: ROS_Cfam_1.0.fa
+      fai_file: ROS_Cfam_1.0.fa.fai
       gzi_file: null
     jbrowse_assembly_name: ROS_Cfam_1.0
 
