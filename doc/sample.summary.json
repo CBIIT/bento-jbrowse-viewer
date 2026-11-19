@@ -1,0 +1,660 @@
+{
+  "graphql_api": "https://caninecommons.cancer.gov/v1/graphql/",
+  "catalog_source": "https://raw.githubusercontent.com/CBIIT/bento-jbrowse-viewer/refs/heads/main/references.yml",
+  "catalog_version": 1,
+  "catalog_sha256": "bd3b63ad59a651ac78ea5a19f9799f40efb9cc05463d04e2b85cc67e786781e8",
+  "catalog_default_reference": "CanFam3.1",
+  "reference_dictionary_snapshot": "output_1/production_sample.reference_dictionaries.json",
+  "reference_asset_inventory_csv": "output_1/production_sample.reference_assets.csv",
+  "reference_asset_inventory_json": "output_1/production_sample.reference_assets.json",
+  "reference_assets_with_gaps": [
+    "CanFam3.1",
+    "UU_Cfam_GSD_1.0",
+    "ROS_Cfam_1.0"
+  ],
+  "unavailable_reference_indexes": [
+    "CanFam3.1",
+    "UU_Cfam_GSD_1.0",
+    "ROS_Cfam_1.0"
+  ],
+  "dictionary_comparison_status_counts": {
+    "reference_indexes_unavailable": 90,
+    "not_applicable": 46
+  },
+  "requested_study_code": null,
+  "scan_scope": "all_studies",
+  "sampling": {
+    "method": "per_study_per_format_random_selection_before_file_service",
+    "sample_size_per_format": 5,
+    "maximum_data_files_per_study": 10,
+    "random_seed": 14064905663087750095,
+    "returned_candidate_uuid_count": 1396,
+    "resolved_selected_data_uuid_count": 90,
+    "targeted_index_uuid_count": 46,
+    "discovery_errors": {},
+    "unclassified_candidate_uuids": [],
+    "unexpected_format_uuids": [],
+    "index_lookup_errors": {},
+    "unassigned_data_uuids": [],
+    "index_lookup_method": "exact_filename_query_with_fileOverview_study_verification",
+    "studies": {
+      "COTC021": {
+        "method": "per_format_random_without_replacement",
+        "sample_size_per_format": 5,
+        "returned_data_candidate_count": 93,
+        "selected_file_uuids": [
+          "14b99b92-d89b-5655-8f79-0dd69a143b4e",
+          "32eaca6c-cdcf-5344-8caf-740c27b53fb0",
+          "490060d3-46e5-5099-98d2-975502052710",
+          "8b1b4f91-eb70-5106-be68-66061bcfa369",
+          "aa04c963-2056-5c6c-b326-ca5a81eede39"
+        ],
+        "selected_file_count": 5,
+        "header_read_count": 5,
+        "discovery_error_uuids": [],
+        "unclassified_candidate_uuids": [],
+        "unexpected_format_uuids": [],
+        "candidate_counts_by_format": {
+          "BAM": 93,
+          "VCF": 0
+        },
+        "selected_counts_by_format": {
+          "BAM": 5
+        },
+        "index_lookup_error": null
+      },
+      "COTC022": {
+        "method": "per_format_random_without_replacement",
+        "sample_size_per_format": 5,
+        "returned_data_candidate_count": 64,
+        "selected_file_uuids": [
+          "038ec696-62a0-513a-a633-2a70e2e36d43",
+          "27248834-edbe-5d3e-9320-b0a267531918",
+          "6e3cedbc-b325-5fcd-9817-cb8c654b7c7d",
+          "7284a02d-8eb6-5ea8-bf64-788179092bca",
+          "d7a01db1-ebff-5878-bbb9-533b05014b77"
+        ],
+        "selected_file_count": 5,
+        "header_read_count": 5,
+        "discovery_error_uuids": [],
+        "unclassified_candidate_uuids": [],
+        "unexpected_format_uuids": [],
+        "candidate_counts_by_format": {
+          "BAM": 64,
+          "VCF": 0
+        },
+        "selected_counts_by_format": {
+          "BAM": 5
+        },
+        "index_lookup_error": null
+      },
+      "COTC026": {
+        "method": "per_format_random_without_replacement",
+        "sample_size_per_format": 5,
+        "returned_data_candidate_count": 62,
+        "selected_file_uuids": [
+          "166f69a7-fb0c-5bc5-9586-6f0f65caf8f9",
+          "56a2c561-00ec-574d-8de2-bb8227734b42",
+          "8f80a801-cd3e-5b83-80e5-cf242c87af8c",
+          "9343fdfc-0d5e-57d4-a4a4-5f70aee12b74",
+          "dd3ba417-03a2-547a-b382-bde79725161c"
+        ],
+        "selected_file_count": 5,
+        "header_read_count": 5,
+        "discovery_error_uuids": [],
+        "unclassified_candidate_uuids": [],
+        "unexpected_format_uuids": [],
+        "candidate_counts_by_format": {
+          "BAM": 62,
+          "VCF": 0
+        },
+        "selected_counts_by_format": {
+          "BAM": 5
+        },
+        "index_lookup_error": null
+      },
+      "COTC030": {
+        "method": "per_format_random_without_replacement",
+        "sample_size_per_format": 5,
+        "returned_data_candidate_count": 24,
+        "selected_file_uuids": [
+          "2b02b925-e4d3-576a-a8bc-f9086df4593c",
+          "4eb75132-c0ad-58de-ac16-b91bfd4bcf93",
+          "bb7dfa45-0cb8-50e5-bc09-02355f08ac85",
+          "d9c54296-5a4d-502d-8940-a1bed3ef4a6a",
+          "f8bd0760-45c6-5c76-bc1e-c2169920f56c"
+        ],
+        "selected_file_count": 5,
+        "header_read_count": 5,
+        "discovery_error_uuids": [],
+        "unclassified_candidate_uuids": [],
+        "unexpected_format_uuids": [],
+        "candidate_counts_by_format": {
+          "BAM": 24,
+          "VCF": 0
+        },
+        "selected_counts_by_format": {
+          "BAM": 5
+        },
+        "index_lookup_error": null
+      },
+      "GLIOMA01": {
+        "method": "per_format_random_without_replacement",
+        "sample_size_per_format": 5,
+        "returned_data_candidate_count": 450,
+        "selected_file_uuids": [
+          "10455da2-f7f7-503f-8b5f-6eea0f7deaf7",
+          "1f9bf9c5-c9a5-5b56-a28c-c0e41f0f598b",
+          "24127013-67ff-5b01-b864-12be8d70c183",
+          "4976aa24-01af-5eb2-b155-5a644ac0ea68",
+          "7d8570a6-e05d-5b7e-8f9d-de5a2815be83",
+          "89392b76-33ed-5bd6-8e22-b8be4b241afa",
+          "89fd4d37-db7f-53bd-b666-cd5a013be51e",
+          "8f109b15-b7a5-5ec6-92bb-92dd0b967bd0",
+          "9a524caa-77ad-5eba-99c4-a0beb70ca749",
+          "d3a94173-1ff6-5c18-b08e-97fa91f9aea7"
+        ],
+        "selected_file_count": 10,
+        "header_read_count": 10,
+        "discovery_error_uuids": [],
+        "unclassified_candidate_uuids": [],
+        "unexpected_format_uuids": [],
+        "candidate_counts_by_format": {
+          "BAM": 373,
+          "VCF": 77
+        },
+        "selected_counts_by_format": {
+          "BAM": 5,
+          "VCF": 5
+        },
+        "index_lookup_error": null
+      },
+      "MGT01": {
+        "method": "per_format_random_without_replacement",
+        "sample_size_per_format": 5,
+        "returned_data_candidate_count": 34,
+        "selected_file_uuids": [
+          "0e81be9b-ce46-56cd-929c-b84c130a1d31",
+          "74fc8653-3b29-5a5d-a457-bc20764bdb6e",
+          "8cdba233-0198-5e4c-b8dc-6b5471e4d70a",
+          "c35869ca-077f-5797-afbb-7b78a9f87e3a",
+          "eb5281c7-d284-54d5-a017-bacdbea36099"
+        ],
+        "selected_file_count": 5,
+        "header_read_count": 5,
+        "discovery_error_uuids": [],
+        "unclassified_candidate_uuids": [],
+        "unexpected_format_uuids": [],
+        "candidate_counts_by_format": {
+          "BAM": 34,
+          "VCF": 0
+        },
+        "selected_counts_by_format": {
+          "BAM": 5
+        },
+        "index_lookup_error": null
+      },
+      "NCATS-COP01": {
+        "method": "per_format_random_without_replacement",
+        "sample_size_per_format": 5,
+        "returned_data_candidate_count": 75,
+        "selected_file_uuids": [
+          "414471d5-f742-5c2c-acf2-4814a01fda5c",
+          "6393ea4b-51d2-590b-a828-0cf705995a07",
+          "8d8d9ab3-35bc-5e85-9d00-9a60a586d4bf",
+          "a735e66d-7b99-5f50-a8b3-91454af717be",
+          "f486956b-71ce-5589-a6da-7afb58b9c6f4"
+        ],
+        "selected_file_count": 5,
+        "header_read_count": 5,
+        "discovery_error_uuids": [],
+        "unclassified_candidate_uuids": [],
+        "unexpected_format_uuids": [],
+        "candidate_counts_by_format": {
+          "BAM": 75,
+          "VCF": 0
+        },
+        "selected_counts_by_format": {
+          "BAM": 5
+        },
+        "index_lookup_error": null
+      },
+      "ORGANOIDS01": {
+        "method": "per_format_random_without_replacement",
+        "sample_size_per_format": 5,
+        "returned_data_candidate_count": 26,
+        "selected_file_uuids": [
+          "0c600953-bd34-59cc-a021-cbcbb6f688de",
+          "4e6ecb4f-8e76-56af-8c97-6d06db6f8093",
+          "5dcfe052-4bd9-5423-b3a9-7c25f737991b",
+          "77623762-18bf-5e4d-851e-9939eb55e917",
+          "e1694361-6f1b-57b1-8575-d3c01ce53ec2"
+        ],
+        "selected_file_count": 5,
+        "header_read_count": 5,
+        "discovery_error_uuids": [],
+        "unclassified_candidate_uuids": [],
+        "unexpected_format_uuids": [],
+        "candidate_counts_by_format": {
+          "BAM": 26,
+          "VCF": 0
+        },
+        "selected_counts_by_format": {
+          "BAM": 5
+        },
+        "index_lookup_error": null
+      },
+      "OSA01": {
+        "method": "per_format_random_without_replacement",
+        "sample_size_per_format": 5,
+        "returned_data_candidate_count": 139,
+        "selected_file_uuids": [
+          "0bf78ca1-98b0-5d47-b1c7-266a8286d17f",
+          "189c14e8-56ee-54ff-b9a0-b1f4b9e32278",
+          "2fe3204a-1a55-5352-8b41-71fd6715aef0",
+          "56fbcf08-9804-59ea-ad96-c1ac558a67c9",
+          "5abbdde4-b12a-58f7-9de4-65b16208085b"
+        ],
+        "selected_file_count": 5,
+        "header_read_count": 5,
+        "discovery_error_uuids": [],
+        "unclassified_candidate_uuids": [],
+        "unexpected_format_uuids": [],
+        "candidate_counts_by_format": {
+          "BAM": 139,
+          "VCF": 0
+        },
+        "selected_counts_by_format": {
+          "BAM": 5
+        },
+        "index_lookup_error": null
+      },
+      "OSA02": {
+        "method": "per_format_random_without_replacement",
+        "sample_size_per_format": 5,
+        "returned_data_candidate_count": 53,
+        "selected_file_uuids": [
+          "407ff3cb-5c1f-5d06-a612-ca7840c5abc8",
+          "bfa093f2-52d1-55eb-937e-34abe9c618c1",
+          "e27ce3e2-15a2-5b7c-92ae-c2457f1c432d",
+          "f8ed8722-738d-51c5-b592-ad27e3590569",
+          "fe72e8fa-d7a2-568c-b17f-faa14621d82c"
+        ],
+        "selected_file_count": 5,
+        "header_read_count": 5,
+        "discovery_error_uuids": [],
+        "unclassified_candidate_uuids": [],
+        "unexpected_format_uuids": [],
+        "candidate_counts_by_format": {
+          "BAM": 53,
+          "VCF": 0
+        },
+        "selected_counts_by_format": {
+          "BAM": 5
+        },
+        "index_lookup_error": null
+      },
+      "OSA03": {
+        "method": "per_format_random_without_replacement",
+        "sample_size_per_format": 5,
+        "returned_data_candidate_count": 44,
+        "selected_file_uuids": [
+          "1d178b52-44af-578d-9b41-8f4998d9bc5c",
+          "25f12576-333b-5a1b-8948-565ebd539b77",
+          "3b416166-84cf-5d9c-aca8-d449976478bc",
+          "3b704bd9-d039-5b73-aca6-1fd1bcacbf9d",
+          "40c3b43c-64e6-5cb0-aecd-9c66d2a7b30e"
+        ],
+        "selected_file_count": 5,
+        "header_read_count": 5,
+        "discovery_error_uuids": [],
+        "unclassified_candidate_uuids": [],
+        "unexpected_format_uuids": [],
+        "candidate_counts_by_format": {
+          "BAM": 44,
+          "VCF": 0
+        },
+        "selected_counts_by_format": {
+          "BAM": 5
+        },
+        "index_lookup_error": null
+      },
+      "STS01": {
+        "method": "per_format_random_without_replacement",
+        "sample_size_per_format": 5,
+        "returned_data_candidate_count": 87,
+        "selected_file_uuids": [
+          "043cde38-4402-5cb2-9f9c-a047d006021e",
+          "4e8ab033-d45b-5477-b591-1ae6bdafb7b8",
+          "834287a7-72a5-5cf0-a4d8-6daa768719d7",
+          "ba8730d2-2e37-53fe-94eb-91c9f1ef31f3",
+          "ddf522a5-8a85-5392-813e-febe985bc141"
+        ],
+        "selected_file_count": 5,
+        "header_read_count": 5,
+        "discovery_error_uuids": [],
+        "unclassified_candidate_uuids": [],
+        "unexpected_format_uuids": [],
+        "candidate_counts_by_format": {
+          "BAM": 87,
+          "VCF": 0
+        },
+        "selected_counts_by_format": {
+          "BAM": 5
+        },
+        "index_lookup_error": null
+      },
+      "TCL01": {
+        "method": "per_format_random_without_replacement",
+        "sample_size_per_format": 5,
+        "returned_data_candidate_count": 46,
+        "selected_file_uuids": [
+          "066ae2a4-e245-5ff6-82c4-e729cf59aea2",
+          "2126563c-973b-529b-8574-ae927d1029ec",
+          "5eb208f3-3732-5950-b084-d4618a66150f",
+          "7ef41d65-e004-5843-bc87-6019fe50b83c",
+          "d7244854-68ce-532e-94ac-81aa044be545"
+        ],
+        "selected_file_count": 5,
+        "header_read_count": 5,
+        "discovery_error_uuids": [],
+        "unclassified_candidate_uuids": [],
+        "unexpected_format_uuids": [],
+        "candidate_counts_by_format": {
+          "BAM": 46,
+          "VCF": 0
+        },
+        "selected_counts_by_format": {
+          "BAM": 5
+        },
+        "index_lookup_error": null
+      },
+      "UBC01": {
+        "method": "per_format_random_without_replacement",
+        "sample_size_per_format": 5,
+        "returned_data_candidate_count": 83,
+        "selected_file_uuids": [
+          "2b565fe4-1296-54af-abd3-a4a849f96317",
+          "6d3b6687-57f9-5dd4-8d39-418d73ee541a",
+          "cc15b064-0f70-5f10-a3e8-723c7621c8ef",
+          "ed8408eb-1a39-5ef3-9bae-bd304f26d0b5",
+          "edb7d890-497a-54e9-9203-d819924c6e8d"
+        ],
+        "selected_file_count": 5,
+        "header_read_count": 5,
+        "discovery_error_uuids": [],
+        "unclassified_candidate_uuids": [],
+        "unexpected_format_uuids": [],
+        "candidate_counts_by_format": {
+          "BAM": 83,
+          "VCF": 0
+        },
+        "selected_counts_by_format": {
+          "BAM": 5
+        },
+        "index_lookup_error": null
+      },
+      "UBC02": {
+        "method": "per_format_random_without_replacement",
+        "sample_size_per_format": 5,
+        "returned_data_candidate_count": 60,
+        "selected_file_uuids": [
+          "4b00bdd6-945d-5828-8d01-94c51a578ec2",
+          "77904270-0d92-59fc-8323-c3842431d8d2",
+          "7b0312d2-41d8-5129-8a2c-345b886a1330",
+          "7cf4367d-0df3-5c6d-963d-7e896d21a877",
+          "f18cdf7a-454e-5ce7-a2b2-98936062cf14"
+        ],
+        "selected_file_count": 5,
+        "header_read_count": 5,
+        "discovery_error_uuids": [],
+        "unclassified_candidate_uuids": [],
+        "unexpected_format_uuids": [],
+        "candidate_counts_by_format": {
+          "BAM": 60,
+          "VCF": 0
+        },
+        "selected_counts_by_format": {
+          "BAM": 5
+        },
+        "index_lookup_error": null
+      },
+      "UBC03": {
+        "method": "per_format_random_without_replacement",
+        "sample_size_per_format": 5,
+        "returned_data_candidate_count": 20,
+        "selected_file_uuids": [
+          "4edede29-b427-5947-a07e-2a7a61d20f23",
+          "53739acc-71a7-5342-bca9-552574644223",
+          "7408b112-aa80-556c-9e3e-3a9994961695",
+          "bcbc293e-1867-5fed-aa73-99f4937afaca",
+          "e619c8f4-4fba-512e-a07d-2a3a5145ad8f"
+        ],
+        "selected_file_count": 5,
+        "header_read_count": 5,
+        "discovery_error_uuids": [],
+        "unclassified_candidate_uuids": [],
+        "unexpected_format_uuids": [],
+        "candidate_counts_by_format": {
+          "BAM": 20,
+          "VCF": 0
+        },
+        "selected_counts_by_format": {
+          "BAM": 5
+        },
+        "index_lookup_error": null
+      },
+      "UC01": {
+        "method": "per_format_random_without_replacement",
+        "sample_size_per_format": 5,
+        "returned_data_candidate_count": 36,
+        "selected_file_uuids": [
+          "5b3e8ca7-acad-547f-973c-340f0d6b78cb",
+          "5eb04e5f-b13c-5fdb-a59c-c2519792d0a9",
+          "6b363d26-7d0a-56dd-b1b4-140ff1993353",
+          "ea3f4351-7fb8-5e8c-b74a-6ceb07105ca3",
+          "f0ebaa5a-9b82-577c-9f39-5f1d139ccce4"
+        ],
+        "selected_file_count": 5,
+        "header_read_count": 5,
+        "discovery_error_uuids": [],
+        "unclassified_candidate_uuids": [],
+        "unexpected_format_uuids": [],
+        "candidate_counts_by_format": {
+          "BAM": 36,
+          "VCF": 0
+        },
+        "selected_counts_by_format": {
+          "BAM": 5
+        },
+        "index_lookup_error": null
+      }
+    }
+  },
+  "complete_for_selected_sample": false,
+  "candidate_uuid_count": 1396,
+  "queried_studies": [
+    "COTC021",
+    "COTC022",
+    "COTC026",
+    "COTC030",
+    "GLIOMA01",
+    "MGT01",
+    "NCATS-COP01",
+    "ORGANOIDS01",
+    "OSA01",
+    "OSA02",
+    "OSA03",
+    "STS01",
+    "TCL01",
+    "UBC01",
+    "UBC02",
+    "UBC03",
+    "UC01"
+  ],
+  "status_counts": {
+    "inspected": 75,
+    "excluded_index_file": 46,
+    "inspected_no_reference_declaration": 15
+  },
+  "index_pair_status_counts": {
+    "matched_same_location": 46,
+    "not_found_in_candidates": 44
+  },
+  "all_data_indexes_paired": false,
+  "complete_for_returned_candidates": false,
+  "production_coverage_verified": false,
+  "limitations": [
+    "Only sampled BAM/VCF headers are inspected. No reference is assigned to uninspected files.",
+    "Sampling eligibility uses filename extensions; it does not prove viewability. Selected missing/ambiguous indexes and header failures remain gaps without silent replacement.",
+    "At most the selected sample of data UUIDs per study is resolved. Unexpected formats and failures are recorded without replacement. Only exact matching index filenames are looked up separately.",
+    "Data UUIDs are read from fileOverview.file_uuid; only selected UUIDs are sent to the file service.",
+    "Study associations and BAM/VCF sampling pools come from paginated fileOverview metadata.",
+    "Case-level filtering may include other associated files; recognizable non-BAM/VCF files are excluded.",
+    "Index pairs use exact filenames, shared study and storage host; matching names do not verify index contents or viewability.",
+    "Index candidates use targeted filename lookup and fileOverview study verification. Not found does not prove absence from Production.",
+    "Canonical aliases use case-insensitive substrings of header evidence; labels are suggestions, not sequence verification. Defaults are marked defaulted.",
+    "Dictionary comparisons use exact sequence names and known lengths only; no chromosome alias normalization or nucleotide identity is inferred.",
+    "Missing VCF lengths and subset dictionaries cannot establish a complete reference match. Unavailable candidate indexes remain comparison gaps.",
+    "FAI freshness, nucleotide identity and hosted reference assets require separate checks."
+  ],
+  "study_output_directory": "output_1/production_sample.studies",
+  "study_outputs": [
+    {
+      "study_code": "COTC021",
+      "folder": "COTC021",
+      "candidate_uuid_count": 10,
+      "data_file_count": 5,
+      "index_file_count": 5,
+      "complete_for_returned_candidates": false
+    },
+    {
+      "study_code": "COTC022",
+      "folder": "COTC022",
+      "candidate_uuid_count": 10,
+      "data_file_count": 5,
+      "index_file_count": 5,
+      "complete_for_returned_candidates": false
+    },
+    {
+      "study_code": "COTC026",
+      "folder": "COTC026",
+      "candidate_uuid_count": 10,
+      "data_file_count": 5,
+      "index_file_count": 5,
+      "complete_for_returned_candidates": false
+    },
+    {
+      "study_code": "COTC030",
+      "folder": "COTC030",
+      "candidate_uuid_count": 10,
+      "data_file_count": 5,
+      "index_file_count": 5,
+      "complete_for_returned_candidates": false
+    },
+    {
+      "study_code": "GLIOMA01",
+      "folder": "GLIOMA01",
+      "candidate_uuid_count": 19,
+      "data_file_count": 10,
+      "index_file_count": 9,
+      "complete_for_returned_candidates": false
+    },
+    {
+      "study_code": "MGT01",
+      "folder": "MGT01",
+      "candidate_uuid_count": 10,
+      "data_file_count": 5,
+      "index_file_count": 5,
+      "complete_for_returned_candidates": false
+    },
+    {
+      "study_code": "NCATS-COP01",
+      "folder": "NCATS-COP01",
+      "candidate_uuid_count": 10,
+      "data_file_count": 5,
+      "index_file_count": 5,
+      "complete_for_returned_candidates": false
+    },
+    {
+      "study_code": "ORGANOIDS01",
+      "folder": "ORGANOIDS01",
+      "candidate_uuid_count": 10,
+      "data_file_count": 5,
+      "index_file_count": 5,
+      "complete_for_returned_candidates": false
+    },
+    {
+      "study_code": "OSA01",
+      "folder": "OSA01",
+      "candidate_uuid_count": 5,
+      "data_file_count": 5,
+      "index_file_count": 0,
+      "complete_for_returned_candidates": false
+    },
+    {
+      "study_code": "OSA02",
+      "folder": "OSA02",
+      "candidate_uuid_count": 5,
+      "data_file_count": 5,
+      "index_file_count": 0,
+      "complete_for_returned_candidates": false
+    },
+    {
+      "study_code": "OSA03",
+      "folder": "OSA03",
+      "candidate_uuid_count": 5,
+      "data_file_count": 5,
+      "index_file_count": 0,
+      "complete_for_returned_candidates": false
+    },
+    {
+      "study_code": "STS01",
+      "folder": "STS01",
+      "candidate_uuid_count": 7,
+      "data_file_count": 5,
+      "index_file_count": 2,
+      "complete_for_returned_candidates": false
+    },
+    {
+      "study_code": "TCL01",
+      "folder": "TCL01",
+      "candidate_uuid_count": 5,
+      "data_file_count": 5,
+      "index_file_count": 0,
+      "complete_for_returned_candidates": false
+    },
+    {
+      "study_code": "UBC01",
+      "folder": "UBC01",
+      "candidate_uuid_count": 5,
+      "data_file_count": 5,
+      "index_file_count": 0,
+      "complete_for_returned_candidates": false
+    },
+    {
+      "study_code": "UBC02",
+      "folder": "UBC02",
+      "candidate_uuid_count": 5,
+      "data_file_count": 5,
+      "index_file_count": 0,
+      "complete_for_returned_candidates": false
+    },
+    {
+      "study_code": "UBC03",
+      "folder": "UBC03",
+      "candidate_uuid_count": 5,
+      "data_file_count": 5,
+      "index_file_count": 0,
+      "complete_for_returned_candidates": false
+    },
+    {
+      "study_code": "UC01",
+      "folder": "UC01",
+      "candidate_uuid_count": 5,
+      "data_file_count": 5,
+      "index_file_count": 0,
+      "complete_for_returned_candidates": false
+    }
+  ]
+}
