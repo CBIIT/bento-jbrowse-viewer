@@ -12,6 +12,7 @@ references:
       - camFam3.1
       - Cfam3
       - camFam3
+      - canFam3_2pass
     assets:
       fasta_file: CanFam3.1.fa
       fai_file: CanFam3.1.fa.fai
