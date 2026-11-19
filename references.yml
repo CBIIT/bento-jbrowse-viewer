@@ -13,6 +13,7 @@ references:
       - Cfam3
       - camFam3
       - canFam3_2pass
+      - CanFam3.1_plus_lambda
     assets:
       fasta_file: CanFam3.1.fa
       fai_file: CanFam3.1.fa.fai
@@ -37,13 +38,3 @@ references:
       fai_file: ROS_Cfam_1.0.fa.fai
       gzi_file: null
     jbrowse_assembly_name: ROS_Cfam_1.0
-
-  - id: CanFam3.1_plus_lambda
-    base_reference: CanFam3.1
-    aliases:
-      - CanFam3.1_plus_lambda
-    assets:
-      fasta_file: CanFam3.1_plus_lambda.fa
-      fai_file: CanFam3.1_plus_lambda.fa.fai
-      gzi_file: null
-    jbrowse_assembly_name: CanFam3.1_plus_lambda
