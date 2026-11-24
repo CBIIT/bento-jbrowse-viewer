@@ -4,7 +4,7 @@ default_reference: CanFam3.1
 
 references:
   - id: CanFam3.1
-    status: pending_verification
+    status: verified
 
     assembly:
       name: CanFam3.1
@@ -74,10 +74,10 @@ references:
       - GCF_000002285.3_CanFam3.1_genomic.sorted.gff
       - canFam3.ensGene.sorted.gff
       - hg38tocanFam3.sorted.gff
-    annotation_verification_status: pending
+    annotation_verification_status: verified
 
   - id: UU_Cfam_GSD_1.0
-    status: pending_verification
+    status: verified
 
     assembly:
       name: UU_Cfam_GSD_1.0
@@ -136,7 +136,7 @@ references:
     annotation_tracks: []
 
   - id: ROS_Cfam_1.0
-    status: pending_verification
+    status: verified
 
     assembly:
       name: ROS_Cfam_1.0
