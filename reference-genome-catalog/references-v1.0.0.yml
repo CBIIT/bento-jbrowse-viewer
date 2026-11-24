@@ -1,0 +1,221 @@
+catalog_version: 1
+catalog_release: v1.0.0
+default_reference: CanFam3.1
+
+references:
+  - id: CanFam3.1
+    status: pending_verification
+
+    assembly:
+      name: CanFam3.1
+      accession: GCA_000002285.2
+      source: NCBI GenBank
+      source_url: https://www.ncbi.nlm.nih.gov/datasets/genome/GCA_000002285.2/
+      related_refseq_accession: GCF_000002285.3
+
+    # Submitter naming variations used to identify candidate references.
+    aliases:
+      - CanFam3.1
+      - CanFam3_1
+      - canFam3
+      - CanFam 3.1
+      - Cfam3.1
+      - camFam3.1
+      - Cfam3
+      - camFam3
+      - canFam3_2pass
+
+    distribution:
+      id: CanFam3.1_ucsc_canFam3
+      provider: UCSC
+      format: 2bit
+
+      assets:
+        two_bit_url: &canfam3_sequence https://hgdownload.soe.ucsc.edu/goldenPath/canFam3/bigZips/canFam3.2bit
+        chrom_sizes_url: &canfam3_sizes https://hgdownload.soe.ucsc.edu/goldenPath/canFam3/bigZips/canFam3.chrom.sizes
+        chrom_aliases_url: &canfam3_aliases https://hgdownload.soe.ucsc.edu/goldenPath/canFam3/bigZips/canFam3.chromAlias.txt
+
+      sequence_dictionary:
+        url: *canfam3_sizes
+        format: chrom_sizes
+        sha256: null
+
+      sequence_aliases:
+        url: *canfam3_aliases
+        format: ucsc_chrom_alias
+        sha256: null
+
+      verification:
+        dictionary_against_reference: pending
+        sequence_aliases_against_dictionary: pending
+
+    jbrowse:
+      name: CanFam3.1
+      sequence:
+        type: ReferenceSequenceTrack
+        trackId: reference_id_CanFam3.1
+        adapter:
+          type: TwoBitAdapter
+          twoBitLocation:
+            uri: *canfam3_sequence
+            locationType: UriLocation
+          chromSizesLocation:
+            uri: *canfam3_sizes
+            locationType: UriLocation
+      refNameAliases:
+        adapter:
+          type: RefNameAliasAdapter
+          location:
+            uri: *canfam3_aliases
+            locationType: UriLocation
+
+    # Existing track IDs; verify compatibility with this distribution.
+    annotation_tracks:
+      - GCF_000002285.3_CanFam3.1_genomic.sorted.gff
+      - canFam3.ensGene.sorted.gff
+      - hg38tocanFam3.sorted.gff
+    annotation_verification_status: pending
+
+  - id: UU_Cfam_GSD_1.0
+    status: pending_verification
+
+    assembly:
+      name: UU_Cfam_GSD_1.0
+      accession: GCF_011100685.1
+      source: NCBI RefSeq
+      source_url: https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_011100685.1/
+
+    aliases:
+      - UU_Cfam_GSD_1.0
+      - GCF_011100685.1
+
+    distribution:
+      id: UU_Cfam_GSD_1.0_ucsc_refseq
+      provider: UCSC
+      format: 2bit
+
+      assets:
+        two_bit_url: &uu_sequence https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/GCF_011100685.1.2bit
+        chrom_sizes_url: &uu_sizes https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/GCF_011100685.1.chrom.sizes.txt
+        chrom_aliases_url: &uu_aliases https://hgdownload.soe.ucsc.edu/hubs/GCF/011/100/685/GCF_011100685.1/GCF_011100685.1.chromAlias.txt
+
+      sequence_dictionary:
+        url: *uu_sizes
+        format: chrom_sizes
+        sha256: null
+
+      sequence_aliases:
+        url: *uu_aliases
+        format: ucsc_chrom_alias
+        sha256: null
+
+      verification:
+        dictionary_against_reference: pending
+        sequence_aliases_against_dictionary: pending
+
+    jbrowse:
+      name: UU_Cfam_GSD_1.0
+      sequence:
+        type: ReferenceSequenceTrack
+        trackId: reference_id_UU_Cfam_GSD_1.0
+        adapter:
+          type: TwoBitAdapter
+          twoBitLocation:
+            uri: *uu_sequence
+            locationType: UriLocation
+          chromSizesLocation:
+            uri: *uu_sizes
+            locationType: UriLocation
+      refNameAliases:
+        adapter:
+          type: RefNameAliasAdapter
+          location:
+            uri: *uu_aliases
+            locationType: UriLocation
+
+    annotation_tracks: []
+
+  - id: ROS_Cfam_1.0
+    status: pending_verification
+
+    assembly:
+      name: ROS_Cfam_1.0
+      accession: GCF_014441545.1
+      source: NCBI RefSeq
+      source_url: https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_014441545.1/
+
+    aliases:
+      - ROS_Cfam_1.0
+
+    distribution:
+      id: ROS_Cfam_1.0_ucsc_refseq
+      provider: UCSC
+      format: 2bit
+
+      assets:
+        two_bit_url: &ros_sequence https://hgdownload.soe.ucsc.edu/hubs/GCF/014/441/545/GCF_014441545.1/GCF_014441545.1.2bit
+        chrom_sizes_url: &ros_sizes https://hgdownload.soe.ucsc.edu/hubs/GCF/014/441/545/GCF_014441545.1/GCF_014441545.1.chrom.sizes.txt
+        chrom_aliases_url: &ros_aliases https://hgdownload.soe.ucsc.edu/hubs/GCF/014/441/545/GCF_014441545.1/GCF_014441545.1.chromAlias.txt
+
+      sequence_dictionary:
+        url: *ros_sizes
+        format: chrom_sizes
+        sha256: null
+
+      sequence_aliases:
+        url: *ros_aliases
+        format: ucsc_chrom_alias
+        sha256: null
+
+      verification:
+        dictionary_against_reference: pending
+        sequence_aliases_against_dictionary: pending
+
+    jbrowse:
+      name: ROS_Cfam_1.0
+      sequence:
+        type: ReferenceSequenceTrack
+        trackId: reference_id_ROS_Cfam_1.0
+        adapter:
+          type: TwoBitAdapter
+          twoBitLocation:
+            uri: *ros_sequence
+            locationType: UriLocation
+          chromSizesLocation:
+            uri: *ros_sizes
+            locationType: UriLocation
+      refNameAliases:
+        adapter:
+          type: RefNameAliasAdapter
+          location:
+            uri: *ros_aliases
+            locationType: UriLocation
+
+    annotation_tracks: []
+
+# Possible custom distributions requiring further investigation.
+unresolved_references:
+  - id: ROS_Cfam_1.0_with_ERCC
+    base_reference: ROS_Cfam_1.0
+    status: pending_verification
+    affected_studies:
+      - ORGANOIDS01
+    evidence:
+      source_file_uuid: 231070ed-e4f8-5d6f-8978-123f534e430a
+      source: STAR_command
+      argument: --sjdbGTFfile
+      annotation_file: GCF_014441545.1_ROS_Cfam_1.0_genomic_PLUS_ERCC.gtf
+    verification:
+      base_reference: pending
+      ERCC_sequence_inclusion: pending
+    reason: >
+      Header evidence suggests ROS_Cfam_1.0 as the base assembly
+      and references a PLUS_ERCC annotation file. ERCC sequence
+      inclusion has not been confirmed.
+    required_check: >
+      Compare affected BAM sequence dictionaries against the standard
+      ROS reference and check for additional ERCC sequence names
+      and lengths.
+
+# Confirmed reference distributions without verified, usable assets.
+unsupported_references: []
